@@ -1,7 +1,7 @@
 
 # React Event Listener Hook
 
-A simple React hook for adding and removing event listeners on DOM nodes.
+A simple React hook for adding event listeners on DOM nodes.
 
 
 ## Installation
