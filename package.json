@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,16 +33,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-events-hook",
+  "name": "react-event-listener-hook",
   "author": "Mehmet Yasir Aktunç",
-  "module": "dist/react-events-hook.esm.js",
+  "module": "dist/react-event-listener-hook.esm.js",
   "size-limit": [
     {
-      "path": "dist/react-events-hook.cjs.production.min.js",
+      "path": "dist/react-event-listener-hook.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/react-events-hook.esm.js",
+      "path": "dist/react-event-listener-hook.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -60,6 +60,8 @@
   },
   "repository": { 
    "type": "git", 
-   "url": "https://github.com/mhmtyasr/react-events-hook" 
-}
+   "url": "https://github.com/mhmtyasr/react-event-listener-hook" 
+  },
+  "homepage": "https://github.com/mhmtyasr/react-event-listener-hook",
+  "keywords": ["react", "events", "pubsub", "hook"]
 }

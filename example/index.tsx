@@ -1,15 +1,15 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { usePubSub } from '../src/index';
+import { useEventListener } from '../src/index';
 
 const App = () => {
-  const [example, setExample] = usePubSub<any[]>({
+  const [example, setExample] = useEventListener<any[]>({
     eventName: 'test',
     defaultValue: [],
   });
 
-  const [example1, setExample1] = usePubSub<any[]>({
+  const [example1, setExample1] = useEventListener<any[]>({
     eventName: 'test1',
     defaultValue: [],
     isSubscribe: false, // if you don't want to subscribe to the event

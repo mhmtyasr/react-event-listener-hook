@@ -8,7 +8,7 @@ interface IUsePubSub<T> {
   onCallback?: ((param: T, myStateRef: T) => T) | null;
 }
 
-export function usePubSub<T>({
+export function useEventListener<T>({
   eventName,
   defaultValue,
   isSubscribe = true,
@@ -46,4 +46,4 @@ export function usePubSub<T>({
   return [data, setData];
 }
 
-export default usePubSub;
+export default useEventListener;
